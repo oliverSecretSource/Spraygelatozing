@@ -1,0 +1,13 @@
+
+.profileImages img {
+    width: 200px;
+    height: 213px;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.profileImages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
