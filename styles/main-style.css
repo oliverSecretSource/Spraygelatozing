@@ -4,8 +4,9 @@ html {
 
 body {
     margin: 0 auto;
-    max-width: 1280px;
+    max-width: 1024px;
     background-color: #B9DED8;
+    padding: 0 3% 3% 3%;
 }
 
 header {
@@ -20,6 +21,11 @@ header {
 header img {
     width: 50px;
     height: 60px;
+    display: flex;
+    align-self:center;
+}
+h1 {
+    margin-left: 0.7rem;
 }
 
 nav li {
@@ -59,7 +65,7 @@ nav ul {
 }
 
 nav {
-    min-width: 80%;
+    min-width: 60%;
 }
 
 footer {
@@ -82,4 +88,35 @@ footer p:last-child {
 footer p:last-child {
     border-top: 2px  solid #916b5cc7;
     padding-top: 0.6rem;
+}
+
+@media (max-width: 730px) {
+    header img {
+        display: none;
+    }
+
+    body {
+        padding: 0.6%;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    nav ul li {
+        min-width: 90%;
+        margin-bottom: 0.5rem;
+    }
+    h1 {
+        margin: 0;
+    }
 }

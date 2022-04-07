@@ -1,0 +1,14 @@
+blockquote {
+    background-color: #6a918b;
+    padding: 0.5rem;
+    border-radius: 25px 10px;
+    border: 3px solid #9a8577;
+    box-shadow: rgba(27, 27, 28, 0.416) 0px 10px 20px 0px;
+}
+
+@media (max-width: 730px) {
+    blockquote {
+        margin: 2%;
+    }
+
+}

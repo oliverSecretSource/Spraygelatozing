@@ -1,13 +1,30 @@
 
-.profileImages img {
+.team img {
     width: 200px;
     height: 213px;
     border-radius: 50%;
-    margin: 1rem;
 }
 
-.profileImages {
+.team {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
 }
+
+.team > * > p {
+    margin: 0.5rem 0 0 0;
+}
+
+.team div {
+    margin: 1rem;
+}
+
+section h1 {
+    margin: 1rem 0 0 0;
+}
+
+.team h2 {
+    min-width: 100%;
+}
+
