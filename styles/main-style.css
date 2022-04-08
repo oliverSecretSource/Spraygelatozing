@@ -107,18 +107,27 @@ footer p:last-child {
     }
 
     nav ul{
+        padding: 0.3rem;
+        list-style-type: none;
         display: flex;
         flex-direction: column;
-        align-content: center;
-        padding: 0;
-        list-style-type: none;
+        background-color: #dca996;
+        border-radius: 6px 6px;
     }
 
     nav ul li {
-        min-width: 90%;
         margin-bottom: 0.5rem;
     }
+
     h1 {
         margin: 0;
+    }
+
+    nav li {
+        all:inherit;
+        margin: 0 0.5rem 0 0.5rem; 
+        text-align: center;
+        font-weight: bold;
+        border: 2px solid #916b5cc7;
     }
 }
