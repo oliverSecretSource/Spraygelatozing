@@ -34,10 +34,10 @@ nav li {
     text-align: center;
     background-color: #dca996;
     color: black; 
-    padding: 0.5rem;
     font-weight: bold;
     border-radius: 6px 6px;
     border: 0.2px solid black;
+    padding: 0.2rem;
 }
 
 nav li:hover {
@@ -52,11 +52,13 @@ nav li:active {
 nav li a {
     text-decoration: none;
     color: black;
+    padding: 0.5rem;
 }
 
 nav li span {
     color: rgb(14, 85, 9);
     text-shadow: rgb(247, 250, 246) 1px 0 10px;
+    padding: 0.5rem;
 }
 
 nav ul {
